@@ -17,6 +17,10 @@
 #         # Unknown.
 # fi
 
+read -p "Choose a language (PTBR/EN)" language;
+
+echo $language
+
 echo "Um arquivo de testes/A test file" > file.txt;
 echo "Outro arquivo de testes/Another test file" > file1.txt;
 echo "Ultimo arquivo de teste\nLast test file" > file2.txt;
