@@ -16,3 +16,19 @@ Clone the repository using git <img align="center" alt="c" height="30" width="40
    ```bash
    $ python3
    ```
+  ### Python installation
+   To install python on your system, go to [`python official website`](https://www.python.org).
+## Running the ransomware
+  ### Creating vulnerable files
+  After git finish pulling the project, make sure you are in the project folder, and run
+  ```bash
+  $ sh create-vulnerable-files.sh
+  ```
+  This will generate 3 text files, which we will encrypt using the ransomware.py script
+  
+  ### Actual script run
+  After all these steps, you're all set to go. Open your terminal and run
+  ```bash
+  $ python3 ransomware.py
+  ```
+  Notice that the 3 generated file's content will be encrypted. And this is it, you can modify the code to encript other files with another Fernet script.
